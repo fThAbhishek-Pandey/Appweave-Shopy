@@ -1,0 +1,13 @@
+.warning{
+    height: 5rem;
+    width: 25rem;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: rgb(135, 238, 248);
+    font-size: 1.1rem;
+    color: rgb(235, 13, 13);
+    font-family: cursive;
+    padding: 0.2rem;
+    border-radius: 5px;
+}

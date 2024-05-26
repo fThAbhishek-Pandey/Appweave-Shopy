@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+article{
+    width: 60%;
+    margin: auto;
+}
+.cart_box img{
+    width: 8rem;
+    height: auto;
+}
+.cart_img{
+    display: flex;
+    width: 50rem;
+}
+.cart_img p {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 0.5rem;
+}
+.cart_box div:nth-child(2) button{
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+.cart_box div:nth-child(3) button{
+    padding:0.4rem 0.5rem;
+    margin: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    border:none;
+    outline: none;
+    color: white;
+    background-color: skyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart_box div:nth-child(3) button:hover{
+    background-color: darkseagreen;
+}
+.cart_box div:nth-child(3) span{
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.total span:nth-child(1){
+    font-size: 2rem;
+    color: skyblue;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+.total span:nth-child(2){
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
+.inc {
+    background-color: rgb(7, 237, 22);
+    margin: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0;
+}
+#dec{
+    background-color: rgb(237, 57, 7);
+    margin: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.inc:hover{
+    background-color:#fff;
+    color:  rgb(7, 237, 22);
+    margin: 0.1rem;
+}
+#dec:hover{
+    background-color:#fff;
+    color:  rgb(237, 57, 7);
+    margin: 0.1rem;
+}
